@@ -1,28 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Upload/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Upload from './components/Upload.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Upload
   }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  font-family: 'Poppins', sans-serif;
   margin-top: 60px;
 }
 </style>
