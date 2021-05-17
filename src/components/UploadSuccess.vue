@@ -8,7 +8,7 @@
       </div>
       <div class="pt-4 upload-text text-center">Uploaded Successfully!</div>
       <div class="flex justify-center pt-6">
-        <div class="upload-box bg-red-400" :style="{ background: 'url(' + imageLink + ')'}">
+        <div id="upload-box" :style="{ 'background-image': 'url(' + imageLink + ')'}">
         </div>
       </div>
 
@@ -60,10 +60,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .upload-box{
+  #upload-box{
     border-radius: 12px;
     height: 224.4px;
     width: 400px;
+    background-size: contain;
   }
 
   .upload-text{
