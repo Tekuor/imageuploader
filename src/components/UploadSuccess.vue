@@ -65,7 +65,8 @@ export default {
     height: 224.4px;
     width: 400px;
     background-size: contain;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .upload-text{
